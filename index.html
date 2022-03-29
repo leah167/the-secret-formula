@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secret Formula</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="form1">
+        <h2>Alert!</h2>
+        <div>
+            <label>Enter name for alert:</label>
+            <input id="userInput" type="text" autocomplete="off" placeholder="Enter your name"/>           
+        </div>
+        <div>
+            <!-- type: submit - makes input a button associated with the form-->
+            <input id="submitButton" type="submit"/>
+        </div>
+    </form>
+
+    <form id="form2">
+        <h2>Make a sandwich</h2>
+        <div>
+            <h3>Type of Bread</h3>
+            <!-- Name groups all of your radio buttons together making it so you can only select onf of those radio buttons at a time -->
+            <div>
+                <label>Wheat</label>
+                <input id="wheat" type="radio" name="bread" checked>
+            </div>
+
+            <div>
+                <label>Rye</label>
+                <input id="rye" type="radio" name="bread">
+            </div>
+
+            <div>
+                <label>Sourdough</label>
+                <input id="sourdough" type="radio" name="bread">
+            </div>
+        </div>
+        <div>
+            <h3>Ingredients</h3>
+            <div>
+                <label>Turkey</label>
+                <input id="turkey" type="checkbox">
+            </div>
+
+            <div>
+                <label>Ham</label>
+                <input id="ham" type="checkbox">
+            </div>
+
+            <div>
+                <label>Salami</label>
+                <input id="salami" type="checkbox">
+            </div>
+
+            <div>
+                <label>Cheddar</label>
+                <input id="cheddar" type="checkbox">
+            </div>
+
+            <div>
+                <label>Provolone</label>
+                <input id="provolone" type="checkbox">
+            </div>
+
+            <div>
+                <label>Mozzerella</label>
+                <input id="mozzerella" type="checkbox">
+            </div>
+
+            <div>
+                <label>Lettuce</label>
+                <input id="lettuce" type="checkbox">
+            </div>
+
+            <div>
+                <label>Tomato</label>
+                <input id="tomato" type="checkbox">
+            </div>
+
+            <div>
+                <label>Mustard</label>
+                <input id="mustard" type="checkbox">
+            </div>
+
+            <div>
+                <label>Aioli</label>
+                <input id="aioli" type="checkbox">
+            </div>
+            <div>
+                <label>Pesto</label>
+                <input id="pesto" type="checkbox">
+            </div>
+        </div>
+        <div>
+            <!-- type: submit - makes input a button associated with the form-->
+            <input id="submitButton2" type="submit"/>
+        </div>
+    </form>
+
+    <form id="form3">
+        <h2>Schedule your hair appointment</h2>
+        <div>
+            <label>Enter appointment date:</label>
+            <input id="date1" type="date" autocomplete="off"/>           
+        </div>
+        <div>
+            <label>Requested Stylist:</label>
+            <input id="stylist" type="text" autocomplete="off" placeholder="Enter their name here"/>           
+        </div>
+        <div>
+            <h3>Select your hair length:</h3>
+            <!-- Name groups all of your radio buttons together making it so you can only select onf of those radio buttons at a time -->
+            <div>
+                <label>Long (shoulder length and below)</label>
+                <input id="long" type="radio" name="length" checked>
+            </div>
+
+            <div>
+                <label>Short (above shoulders)</label>
+                <input id="short" type="radio" name="length">
+            </div>
+
+        </div>
+        <div>
+            <!-- type: submit - makes input a button associated with the form-->
+            <input id="submitButton3" type="submit"/>
+        </div>
+
+    </form>
+
+    <form id="form4">
+        <h2>Create Your New Account!</h2>
+        <div>
+            <label>Create username:</label>
+            <input id="userName" type="text" autocomplete="off" placeholder="Username"/>           
+        </div>
+        <div>
+            <label>Enter e-mail:</label>
+            <input id="userEmail" type="email" autocomplete="off" placeholder="example@website.com"/>           
+        </div>
+        <div>
+            <label>Create password:</label>
+            <input id="userPassword" type="password" autocomplete="off"/>           
+        </div>
+        <div>
+            <label>Confirm password:</label>
+            <input id="confirmPassword" type="password" autocomplete="off"/>           
+        </div>
+        <div>
+            <!-- type: submit - makes input a button associated with the form-->
+            <input id="submitButton4" type="submit"/>
+        </div>
+
+
+    </form>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
